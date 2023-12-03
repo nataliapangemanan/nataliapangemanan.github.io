@@ -1,0 +1,53 @@
+/* login.css */
+
+body {
+     background-color: #00703C; /* Ganti dengan warna yang diinginkan */
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang dengan transparansi */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Efek bayangan untuk tampilan dimensinya */
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #00703C;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004d27;
+}

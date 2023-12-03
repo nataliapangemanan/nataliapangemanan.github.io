@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00703C;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+#jadwal-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dokter-schedule {
+    margin-bottom: 20px;
+}
+
+.dokter-schedule h2 {
+    color: #00703C;
+}
+
+.dokter-schedule ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dokter-schedule li {
+    margin-bottom: 8px;
+}
+
+footer {
+    background-color: #00703C;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,50 @@
+/* admin.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.admin-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    color: #00703C;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
+}

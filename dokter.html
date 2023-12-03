@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dokter.css">
+    <title>Dokter Dashboard - Puskesmas Management System</title>
+</head>
+<body>
+    <div class="dokter-container">
+        <h2>Welcome, Dokter!</h2>
+
+        <section id="pasien-list">
+            <h3>Daftar Pasien</h3>
+            <ul>
+                <li>Bayu Abdjul - No. Rekam Medis: 001</li>
+                <li>Miracle Kusen - No. Rekam Medis: 002</li>
+                <!-- ... -->
+            </ul>
+        </section>
+
+        <section id="riwayat-pasien">
+            <h3>Riwayat Pasien</h3>
+            <ul>
+                <li>Bayu Abdjul - Riwayat Pemeriksaan pada tanggal 01-01-2023</li>
+                <li>Miracle Kusen - Riwayat Pemeriksaan pada tanggal 02-01-2023</li>
+                <!-- ... -->
+            </ul>
+        </section>
+
+        <!-- Tampilkan konsultasi pasien -->
+        <section id="konsultasi-pasien">
+            <h3>Konsultasi Pasien</h3>
+            <ul id="list-konsultasi-pasien">
+                <!-- Tempat untuk menampilkan pesan dari pasien -->
+            </ul>
+        </section>
+
+        <!-- Tambahkan elemen atau form untuk interaksi dokter -->
+
+        <footer>
+            <p>&copy; 2023 Puskesmas Management System</p>
+        </footer>
+    </div>
+    <script src="dokter.js"></script>
+    <script src="konsultasipasien.js"></script> <script src="https://www.gstatic.com/firebasejs/9.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.3.0/firebase-database.js"></script>
+
+</body>
+</html>

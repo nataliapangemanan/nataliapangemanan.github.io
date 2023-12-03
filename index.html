@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ... (head section) ... -->
+    <link rel="stylesheet" href="style.css">
+    <title>Puskesmas Management System</title>
+    <!-- Sertakan file CSS login jika Anda ingin menggunakan gaya yang berbeda -->
+    <link rel="stylesheet" href="login.css"> 
+</head>
+<body>
+    <img src="logo.png" alt="logo" class="logo"> 
+    <header>
+        <h1>Puskesmas Management System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#login" id="admin-login">Admin Login</a></li>
+            <li><a href="#login" id="dokter-login">Dokter Login</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="drschedule.html">Doctor Schedule</a></li>
+            <li><a href="layananpasien.html">Layanan Pasien</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Puskesmas</h2>
+        <p>Selamat datang di situs web Puskesmas kami, tempat di mana kesehatan dan kesejahteraan masyarakat adalah prioritas utama kami. Dengan bangga kami menawarkan layanan kesehatan yang terjangkau dan berkualitas tinggi untuk semua orang. Di Puskesmas kami, Anda akan menemukan akses mudah ke perawatan medis yang beragam, mulai dari pelayanan kesehatan keluarga hingga pengobatan penyakit menular dan non-menular. Kami berkomitmen untuk memberikan perawatan holistik yang sesuai dengan kebutuhan individu maupun komunitas, karena kami meyakini bahwa kesehatan adalah hak asasi setiap orang.</p>
+        <p>Puskesmas kami didedikasikan untuk menjadi mitra utama dalam memastikan kesehatan dan kesejahteraan masyarakat di sekitar kami. Kami berupaya memberikan layanan kesehatan yang tidak hanya terjangkau, tetapi juga mudah diakses oleh semua lapisan masyarakat. Tim medis kami terdiri dari para profesional kesehatan yang berpengalaman dan berkomitmen untuk memberikan perawatan terbaik kepada setiap pasien. Kami percaya bahwa kesehatan komunitas adalah kunci untuk menciptakan masyarakat yang sehat dan produktif, oleh karena itu, Puskesmas kami berusaha untuk memberikan perawatan kesehatan yang berkelanjutan dan terjangkau.</p>
+        <p>Kami mengundang Anda untuk menjelajahi situs web kami dan mengenal lebih jauh tentang layanan kesehatan yang kami tawarkan. Dari program imunisasi hingga pelayanan kesehatan ibu dan anak, kami siap memberikan perawatan medis yang mengutamakan kebutuhan dan kenyamanan pasien. Di Puskesmas kami, kami yakin bahwa pencegahan adalah kunci utama untuk menciptakan masyarakat yang lebih sehat, oleh karena itu, kami juga menyediakan layanan pendidikan kesehatan dan promosi gaya hidup sehat. Mari bersama-sama dalam menciptakan masyarakat yang lebih sehat dan bahagia.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Puskesmas Management System</p>
+    </footer>
+    <!-- Sertakan file JavaScript -->
+    <script src="web.js"></script>
+
+    <!-- Sertakan file JavaScript untuk menangani navigasi ke halaman login -->
+    <script>
+        document.getElementById('admin-login').addEventListener('click', function(event) {
+            event.preventDefault();
+            // Redirect ke halaman login admin
+            window.location.href = 'admin-login.html';
+        });
+
+        document.getElementById('dokter-login').addEventListener('click', function(event) {
+            event.preventDefault();
+            // Redirect ke halaman login dokter
+            window.location.href = 'dokter-login.html';
+        });
+    </script>
+</body>
+</html>
